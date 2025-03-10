@@ -3,7 +3,7 @@ SEIA (sæ-ya) is InLab's Small and capable computer ranging from tradational thu
   
 ## Specs
 - Comms and Brodcast processing:[ATMEGA16L-8AQR](https://www.digikey.com/en/products/detail/rochester-electronics-llc/ATMEGA16L-8AQR/13483902)
-- MPU:[MIMXRT1062CVJ5B](https://www.digikey.com/en/products/detail/nxp-usa-inc/mimxrt1062cvj5b/13574424)
+- MPU:[K50-100](https://www.nxp.com/products/K50_100)
 - Barometer:[BMO390](https://www.digikey.com/en/products/detail/bosch-sensortec/bmp390/16164575)
 - IMU:[BNO055](https://www.digikey.com/en/products/detail/bosch-sensortec/BNO055/6136301)
 - GNSS/GPS:
