@@ -4347,6 +4347,248 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SEIA_SpecLib:TLV70433DBVEVM-712"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV70433DBVEVM-712"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SOT95P280X145-5N"
+				(at 24.13 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/TLV70433DBVEVM-712.pdf"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLV70433DBVEVM-712"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LV70433DBVEVM712"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVEVM-712?qs=TeC8nwD7mVofZYBqOoN1WA%3D%3D"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "TLV70433DBVEVM-712"
+				(at 24.13 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "null?region=nac"
+				(at 24.13 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TLV70433DBVEVM-712_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV70433DBVEVM-712_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4450,6 +4692,19 @@
 		)
 	)
 	(rectangle
+		(start 29.21 323.85)
+		(end 269.24 393.7)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 215 255 101 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f971f70-6602-49d8-94af-6025ad415234)
+	)
+	(rectangle
 		(start 27.94 24.13)
 		(end 267.97 292.1)
 		(stroke
@@ -4461,6 +4716,17 @@
 			(type none)
 		)
 		(uuid f56a77f2-d179-4e5c-80a8-66f08fc90baa)
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 39.624 400.05 0)
+		(effects
+			(font
+				(face "Mononoki Nerd Font")
+				(size 5 5)
+			)
+		)
+		(uuid "4cb8d28c-e365-4773-9632-c1cf83787f0c")
 	)
 	(text "Main"
 		(exclude_from_sim no)
@@ -5880,6 +6146,165 @@
 			(project "SEIA-Hardware"
 				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEIA_SpecLib:TLV70433DBVEVM-712")
+		(at 57.15 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dea9cb0-0762-4344-835a-585c37de5636")
+		(property "Reference" "IC3"
+			(at 71.12 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV70433DBVEVM-712"
+			(at 71.12 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 81.28 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/TLV70433DBVEVM-712.pdf"
+			(at 81.28 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
+			(at 57.15 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
+			(at 81.28 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 81.28 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 81.28 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV70433DBVEVM-712"
+			(at 81.28 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LV70433DBVEVM712"
+			(at 81.28 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVEVM-712?qs=TeC8nwD7mVofZYBqOoN1WA%3D%3D"
+			(at 81.28 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TLV70433DBVEVM-712"
+			(at 81.28 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "null?region=nac"
+			(at 81.28 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3743536d-9076-4a4b-bdb2-0726f9979809")
+		)
+		(pin "1"
+			(uuid "9ea4fffa-b6fd-4615-9979-1cc811604d1f")
+		)
+		(pin "3"
+			(uuid "d04e785d-add7-4a96-b6ff-fa6ba27961c2")
+		)
+		(pin "5"
+			(uuid "31cc6c8b-cfc8-4956-b7f2-44d12103d16a")
+		)
+		(pin "4"
+			(uuid "fb2c4cf9-ede7-4a68-8e91-86cd1abc7bb9")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "IC3")
 					(unit 1)
 				)
 			)
