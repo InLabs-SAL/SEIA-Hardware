@@ -11,6 +11,106 @@
 		(company "InLabs")
 	)
 	(lib_symbols
+		(symbol "SEIA_SpecLib:BAT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT_0_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT_1_1"
+				(pin output line
+					(at -3.81 5.08 0)
+					(length 2.54)
+					(name "12V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 2.54 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SEIA_SpecLib:BMF055"
 			(pin_names
 				(offset 0.762)
@@ -4690,9 +4790,134 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 29.21 323.85)
+		(start 29.21 307.34)
 		(end 269.24 393.7)
 		(stroke
 			(width 0.5)
@@ -4762,6 +4987,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e43cbd-0dca-4102-b3ff-257f87a87463")
+	)
+	(no_connect
+		(at 69.85 328.93)
+		(uuid "5abc1586-4f5c-48b8-8c53-cfeec25fe539")
+	)
+	(no_connect
+		(at 69.85 326.39)
+		(uuid "f96d01bf-5eb5-40c8-8e96-f5e4ae7034ff")
 	)
 	(wire
 		(pts
@@ -4922,6 +5155,16 @@
 			(type default)
 		)
 		(uuid "9add9493-3203-49dc-8e43-b2c708263896")
+	)
+	(wire
+		(pts
+			(xy 243.84 320.04) (xy 252.73 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7606951-8a41-487a-9c9c-8f1e0e1094a7")
 	)
 	(wire
 		(pts
@@ -6020,6 +6263,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 243.84 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28291203-d301-49d8-866f-84b491808e20")
+		(property "Reference" "#PWR019"
+			(at 243.84 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 243.84 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 243.84 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a82204-03fb-4f86-bd40-0446f7e7c0fc")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 281.94 0)
 		(unit 1)
@@ -6153,7 +6462,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:TLV70433DBVEVM-712")
-		(at 57.15 345.44 0)
+		(at 41.91 326.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6162,7 +6471,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dea9cb0-0762-4344-835a-585c37de5636")
 		(property "Reference" "IC3"
-			(at 71.12 337.82 0)
+			(at 55.88 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6479,7 @@
 			)
 		)
 		(property "Value" "TLV70433DBVEVM-712"
-			(at 71.12 340.36 0)
+			(at 55.88 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6487,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 81.28 342.9 0)
+			(at 66.04 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6497,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/TLV70433DBVEVM-712.pdf"
-			(at 81.28 345.44 0)
+			(at 66.04 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6507,7 @@
 			)
 		)
 		(property "Description" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
-			(at 57.15 345.44 0)
+			(at 41.91 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6516,7 @@
 			)
 		)
 		(property "Description_1" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
-			(at 81.28 347.98 0)
+			(at 66.04 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6526,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 81.28 350.52 0)
+			(at 66.04 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6536,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 81.28 353.06 0)
+			(at 66.04 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6546,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV70433DBVEVM-712"
-			(at 81.28 355.6 0)
+			(at 66.04 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6556,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-LV70433DBVEVM712"
-			(at 81.28 358.14 0)
+			(at 66.04 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6566,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVEVM-712?qs=TeC8nwD7mVofZYBqOoN1WA%3D%3D"
-			(at 81.28 360.68 0)
+			(at 66.04 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6576,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TLV70433DBVEVM-712"
-			(at 81.28 363.22 0)
+			(at 66.04 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6586,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?region=nac"
-			(at 81.28 365.76 0)
+			(at 66.04 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,6 +7502,142 @@
 			(project "SEIA-Hardware"
 				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEIA_SpecLib:BAT")
+		(at 256.54 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ae6865-ce62-46bb-bf76-508771320b86")
+		(property "Reference" "B1"
+			(at 261.62 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 261.62 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "0f224953-f64c-4b8a-842e-d320eafd9a94")
+		)
+		(pin ""
+			(uuid "760ae6c8-a37e-4925-bece-a0b789a42c51")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 322.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e790b04d-9166-4665-be45-cff211976752")
+		(property "Reference" "#PWR020"
+			(at 252.73 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b963799-cafd-4b30-ae6a-2cc761e03a79")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
