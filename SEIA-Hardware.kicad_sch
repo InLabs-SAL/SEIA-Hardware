@@ -11,6 +11,106 @@
 		(company "InLabs")
 	)
 	(lib_symbols
+		(symbol "SEIA_SpecLib:BAT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT_0_1"
+				(rectangle
+					(start -2.54 4.445)
+					(end 5.08 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT_1_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SEIA_SpecLib:BMF055"
 			(pin_names
 				(offset 0.762)
@@ -4589,6 +4689,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4697,7 +5047,7 @@
 		(stroke
 			(width 0.5)
 			(type solid)
-			(color 215 255 101 1)
+			(color 48 47 255 1)
 		)
 		(fill
 			(type none)
@@ -4762,6 +5112,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e43cbd-0dca-4102-b3ff-257f87a87463")
+	)
+	(no_connect
+		(at 46.99 347.98)
+		(uuid "2379c202-d47f-4aac-a64c-d2d0d08f65d1")
+	)
+	(no_connect
+		(at 46.99 350.52)
+		(uuid "8da66a55-19e1-48da-8185-782df172c676")
 	)
 	(wire
 		(pts
@@ -4842,6 +5200,16 @@
 			(type default)
 		)
 		(uuid "5377a136-2fde-4a87-8661-3c9e4fc5fd2e")
+	)
+	(wire
+		(pts
+			(xy 74.93 347.98) (xy 80.01 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593f687a-4561-481c-8342-b6716b816fe5")
 	)
 	(wire
 		(pts
@@ -5888,6 +6256,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SEIA_SpecLib:BAT")
+		(at 250.19 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087b6b57-b72d-4893-aa82-deb18f5d3ea5")
+		(property "Reference" "P1"
+			(at 256.54 339.7249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 256.54 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "023aab60-a181-4069-b22b-ea832a84af50")
+		)
+		(pin ""
+			(uuid "1ba213d4-06cf-49b6-8f26-105f42028ad5")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 88.9 0)
 		(unit 1)
@@ -6014,6 +6452,72 @@
 			(project "SEIA-Hardware"
 				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 245.11 337.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "278fbe08-d72d-464c-89cb-6d0564b47c9f")
+		(property "Reference" "#PWR019"
+			(at 245.11 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 245.11 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 245.11 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbf9ebd5-768e-4389-bf84-e304c9ccfb4b")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6152,8 +6656,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59dba07c-8400-4276-b413-6ec81da63380")
+		(property "Reference" "#PWR021"
+			(at 74.93 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07371d38-627b-4914-aec3-166fa04d7154")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SEIA_SpecLib:TLV70433DBVEVM-712")
-		(at 57.15 345.44 0)
+		(at 74.93 350.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6162,7 +6732,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dea9cb0-0762-4344-835a-585c37de5636")
 		(property "Reference" "IC3"
-			(at 71.12 337.82 0)
+			(at 60.96 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6740,7 @@
 			)
 		)
 		(property "Value" "TLV70433DBVEVM-712"
-			(at 71.12 340.36 0)
+			(at 60.96 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6748,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 81.28 342.9 0)
+			(at 50.8 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6758,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/5/TLV70433DBVEVM-712.pdf"
-			(at 81.28 345.44 0)
+			(at 50.8 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6768,7 @@
 			)
 		)
 		(property "Description" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
-			(at 57.15 345.44 0)
+			(at 74.93 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +6777,7 @@
 			)
 		)
 		(property "Description_1" "TEXAS INSTRUMENTS - TLV70433DBVEVM-712 - EVALUATION BOARD, 3.3V, 150mA LDO VOLTAGE REGULATOR"
-			(at 81.28 347.98 0)
+			(at 50.8 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6787,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 81.28 350.52 0)
+			(at 50.8 345.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6797,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 81.28 353.06 0)
+			(at 50.8 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6807,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV70433DBVEVM-712"
-			(at 81.28 355.6 0)
+			(at 50.8 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6817,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-LV70433DBVEVM712"
-			(at 81.28 358.14 0)
+			(at 50.8 337.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6827,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVEVM-712?qs=TeC8nwD7mVofZYBqOoN1WA%3D%3D"
-			(at 81.28 360.68 0)
+			(at 50.8 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6837,7 @@
 			)
 		)
 		(property "Arrow Part Number" "TLV70433DBVEVM-712"
-			(at 81.28 363.22 0)
+			(at 50.8 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6847,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "null?region=nac"
-			(at 81.28 365.76 0)
+			(at 50.8 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,6 +7146,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 245.11 342.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84acd317-fda3-4a62-a369-9b1d69b06cc8")
+		(property "Reference" "#PWR020"
+			(at 245.11 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228f9aad-9fe0-49b5-a758-4136465b7dd8")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 31.75 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6833,6 +7469,72 @@
 			(project "SEIA-Hardware"
 				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 80.01 347.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c94cf519-0901-4eea-847f-1808e8d57abd")
+		(property "Reference" "#PWR022"
+			(at 80.01 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 80.01 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 80.01 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "011e6276-776d-4b88-bf61-ad326ca54ecf")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7325,6 +8027,72 @@
 			(project "SEIA-Hardware"
 				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 74.93 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffbb4ea8-ad63-45b1-8b15-709639363174")
+		(property "Reference" "#PWR023"
+			(at 74.93 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db65510c-e4fe-4f64-804a-b8859810e8fe")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
