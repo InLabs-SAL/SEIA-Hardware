@@ -1,5 +1,5 @@
 # Small Exemplar Intergrated Avionics (SEIA)
-SEIA (sæ-ya) is InLab's Small and capable computer ranging from tradational thurst vector control to roll control, using tradational c++ to automate the process of collecting data from the IMU feeding it to an PID control system.
+SEIA (sæ-ya) is InLab's Small and capable computer ranging from tradational thurst vector control to roll control, using tradational rust to automate the process of collecting data from the IMU feeding it to an PID control system.
   
 ## Specs
 - Comms and Brodcast processing:[ATMEGA16L-8AQR](https://www.digikey.com/en/products/detail/rochester-electronics-llc/ATMEGA16L-8AQR/13483902)
@@ -11,3 +11,4 @@ SEIA (sæ-ya) is InLab's Small and capable computer ranging from tradational thu
   
 ## Current Contributers
 [Ren](https://kaitotlex.systems)
+[Nicolas](https://github.com/nluo923)
