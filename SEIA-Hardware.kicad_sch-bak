@@ -5415,6 +5415,628 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SEIA_SpecLib:PKMCS0909E4000-R1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LS"
+				(at 11.43 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PKMCS0909E4000-R1"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PKMCS0909E4000R1"
+				(at 11.43 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx"
+				(at 11.43 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Piezo Buzzer 9x9mm 4kHz 1.9mm Murata Maximum of +/-12.5 V 65dB SMD Sounder External Piezo Buzzer, Maximum of 4 kHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Piezo Buzzer 9x9mm 4kHz 1.9mm Murata Maximum of +/-12.5 V 65dB SMD Sounder External Piezo Buzzer, Maximum of 4 kHz"
+				(at 11.43 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.9"
+				(at 11.43 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 11.43 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PKMCS0909E4000-R1"
+				(at 11.43 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-PKMCS0909E4000-R1"
+				(at 11.43 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/PKMCS0909E4000-R1?qs=YqJ97pz8ambMt2Tf4F1Kig%3D%3D"
+				(at 11.43 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "PKMCS0909E4000-R1"
+				(at 11.43 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pkmcs0909e4000-r1/murata-manufacturing?region=nac"
+				(at 11.43 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "PKMCS0909E4000-R1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PKMCS0909E4000-R1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 7.112 1.27) (xy 9.652 3.81) (xy 9.652 -6.35) (xy 7.112 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SEIA_SpecLib:ST1W008S4TR2000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ST1W008S4TR2000"
+				(at -7.62 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ST1W008S4TR2000:JAE_ST1W008S4TR2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "JAE Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.5 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ST1W008S4TR2000/JAE+Electronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST1W008S4TR2000/JAE+Electronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ST1W008S4TR2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "microSD memory card connector, 8 contacts, hinge type, soldering (SMT) | JAE Electronics Inc. ST1W008S4TR2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JAE Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ST1W008S4TR2000_0_0"
+				(rectangle
+					(start -7.62 -17.78)
+					(end 7.62 15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "C1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "C2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "C3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "C4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "C5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "C6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "C7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "C8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "GND4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SEIA_SpecLib:TLV70433DBVR"
 			(pin_names
 				(offset 0.762)
@@ -6213,80 +6835,95 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 29.21 307.34)
-		(end 269.24 393.7)
+	(text_box "Power "
+		(exclude_from_sim no)
+		(at 27.94 302.26 0)
+		(size 240.03 49.53)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0.5)
-			(type solid)
-			(color 215 255 101 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7f971f70-6602-49d8-94af-6025ad415234)
-	)
-	(rectangle
-		(start 27.94 24.13)
-		(end 267.97 292.1)
-		(stroke
-			(width 0.5)
+			(width 0)
 			(type dash_dot)
-			(color 255 83 89 1)
 		)
 		(fill
 			(type none)
 		)
-		(uuid f56a77f2-d179-4e5c-80a8-66f08fc90baa)
-	)
-	(text "Power"
-		(exclude_from_sim no)
-		(at 39.624 400.05 0)
 		(effects
 			(font
-				(face "Mononoki Nerd Font")
-				(size 5 5)
+				(face "CaskaydiaCove NF")
+				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "4cb8d28c-e365-4773-9632-c1cf83787f0c")
+		(uuid "087562c4-480a-4d77-b881-0a6b6588bd53")
 	)
-	(text "Main"
+	(text_box "Main Gyro"
 		(exclude_from_sim no)
-		(at 35.56 297.688 0)
+		(at 279.4 25.4 0)
+		(size 146.05 92.71)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(face "Mononoki Nerd Font Mono")
-				(size 5 5)
+				(face "CaskaydiaCove NF")
+				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "bb6a2bd1-0dac-452f-b4f6-1506642ec640")
+		(uuid "4094fbba-3855-4fa7-9c26-508ec3c4cf21")
+	)
+	(text_box "Teensy"
+		(exclude_from_sim no)
+		(at 27.94 22.86 0)
+		(size 240.03 275.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "CaskaydiaCove NF")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5869fed6-9997-4922-ab6f-b5d33ea75304")
 	)
 	(junction
-		(at 405.13 87.63)
+		(at 383.54 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "028f6f42-240e-42fb-adbe-1e61733e908a")
 	)
 	(junction
-		(at 68.58 317.5)
+		(at 67.31 311.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16a6c91b-087f-4e87-bc0c-8399e517f6d5")
 	)
 	(junction
-		(at 360.68 83.82)
+		(at 339.09 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3127f023-07fa-40c1-a94f-8cfa492433d9")
 	)
 	(junction
-		(at 358.14 93.98)
+		(at 336.55 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31d421f8-a07b-4878-9bc5-713fcd53d3fe")
 	)
 	(junction
-		(at 306.07 59.69)
+		(at 284.48 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60d8f563-7873-4727-8a9f-a60847e70598")
@@ -6304,13 +6941,13 @@
 		(uuid "98ccd2c8-61ce-4737-9ec7-d96e01e85287")
 	)
 	(junction
-		(at 92.71 331.47)
+		(at 91.44 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9aaf6ed6-abee-42ab-83b3-27fd7dee7fbd")
 	)
 	(junction
-		(at 325.12 59.69)
+		(at 303.53 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa39dfa5-546f-4e5a-a049-adc4c6743c5e")
@@ -6322,7 +6959,7 @@
 		(uuid "ab5ca91e-bc2a-4416-bc6e-c9ee06501d9d")
 	)
 	(junction
-		(at 71.12 328.93)
+		(at 69.85 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "add4b96b-eaca-4e55-b10f-a5a00af2000a")
@@ -6334,35 +6971,35 @@
 		(uuid "b9e43cbd-0dca-4102-b3ff-257f87a87463")
 	)
 	(junction
-		(at 88.9 331.47)
+		(at 87.63 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf548f69-319d-4cf9-8c87-79cfb5aba11e")
 	)
 	(junction
-		(at 358.14 104.14)
+		(at 336.55 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9f1f4ce-6af3-48f0-83ab-1e664c956dd4")
 	)
 	(no_connect
-		(at 420.37 49.53)
+		(at 398.78 55.88)
 		(uuid "4d457c9a-f200-4cac-8006-841337cbd40c")
 	)
 	(no_connect
-		(at 40.64 328.93)
+		(at 39.37 322.58)
 		(uuid "5abc1586-4f5c-48b8-8c53-cfeec25fe539")
 	)
 	(no_connect
-		(at 350.52 39.37)
+		(at 328.93 45.72)
 		(uuid "682e6b0d-05b5-47d7-b056-b647e3f641bd")
 	)
 	(no_connect
-		(at 387.35 46.99)
+		(at 365.76 53.34)
 		(uuid "ba74a75b-ebec-4581-af6f-2f038db71436")
 	)
 	(no_connect
-		(at 40.64 331.47)
+		(at 39.37 325.12)
 		(uuid "f96d01bf-5eb5-40c8-8e96-f5e4ae7034ff")
 	)
 	(wire
@@ -6377,7 +7014,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 64.77) (xy 368.3 83.82)
+			(xy 346.71 71.12) (xy 346.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6407,7 +7044,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 87.63) (xy 405.13 87.63)
+			(xy 381 93.98) (xy 383.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6437,7 +7074,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 331.47) (xy 88.9 331.47)
+			(xy 91.44 325.12) (xy 87.63 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6447,7 +7084,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 83.82) (xy 360.68 93.98)
+			(xy 339.09 90.17) (xy 339.09 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6467,7 +7104,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 93.98) (xy 358.14 93.98)
+			(xy 326.39 100.33) (xy 336.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6477,7 +7114,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 83.82) (xy 360.68 83.82)
+			(xy 346.71 90.17) (xy 339.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6487,7 +7124,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 57.15) (xy 306.07 59.69)
+			(xy 284.48 63.5) (xy 284.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6497,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 21.59) (xy 345.44 21.59)
+			(xy 326.39 27.94) (xy 323.85 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +7144,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 57.15) (xy 306.07 57.15)
+			(xy 308.61 63.5) (xy 284.48 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6527,7 +7164,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 331.47) (xy 88.9 331.47)
+			(xy 67.31 325.12) (xy 87.63 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6537,7 +7174,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 59.69) (xy 325.12 59.69)
+			(xy 297.18 66.04) (xy 303.53 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6567,7 +7204,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 82.55) (xy 360.68 83.82)
+			(xy 339.09 88.9) (xy 339.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6587,7 +7224,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 82.55) (xy 347.98 93.98)
+			(xy 326.39 88.9) (xy 326.39 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6597,7 +7234,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 46.99) (xy 420.37 46.99)
+			(xy 402.59 53.34) (xy 398.78 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6607,7 +7244,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 328.93) (xy 71.12 328.93)
+			(xy 67.31 322.58) (xy 69.85 322.58)
 		)
 		(stroke
 			(width 0)
@@ -6617,7 +7254,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 317.5) (xy 92.71 317.5)
+			(xy 86.36 311.15) (xy 91.44 311.15)
 		)
 		(stroke
 			(width 0)
@@ -6627,7 +7264,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 93.98) (xy 358.14 93.98)
+			(xy 339.09 100.33) (xy 336.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6637,7 +7274,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 49.53) (xy 387.35 49.53)
+			(xy 361.95 55.88) (xy 365.76 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6707,7 +7344,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 31.75) (xy 340.36 39.37)
+			(xy 318.77 38.1) (xy 318.77 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +7354,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 59.69) (xy 330.2 59.69)
+			(xy 303.53 66.04) (xy 308.61 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6727,7 +7364,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 317.5) (xy 92.71 331.47)
+			(xy 91.44 311.15) (xy 91.44 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6737,7 +7374,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 39.37) (xy 347.98 21.59)
+			(xy 326.39 45.72) (xy 326.39 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6747,7 +7384,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 320.04) (xy 252.73 320.04)
+			(xy 242.57 313.69) (xy 251.46 313.69)
 		)
 		(stroke
 			(width 0)
@@ -6767,7 +7404,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 93.98) (xy 358.14 104.14)
+			(xy 336.55 100.33) (xy 336.55 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6777,7 +7414,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 328.93) (xy 76.2 328.93)
+			(xy 69.85 322.58) (xy 74.93 322.58)
 		)
 		(stroke
 			(width 0)
@@ -6787,7 +7424,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 317.5) (xy 68.58 317.5)
+			(xy 73.66 311.15) (xy 67.31 311.15)
 		)
 		(stroke
 			(width 0)
@@ -6807,7 +7444,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 87.63) (xy 405.13 90.17)
+			(xy 383.54 93.98) (xy 383.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6827,7 +7464,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 328.93) (xy 88.9 331.47)
+			(xy 87.63 322.58) (xy 87.63 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6857,7 +7494,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 317.5) (xy 68.58 326.39)
+			(xy 67.31 311.15) (xy 67.31 320.04)
 		)
 		(stroke
 			(width 0)
@@ -6877,7 +7514,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 82.55) (xy 345.44 104.14)
+			(xy 323.85 88.9) (xy 323.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6897,7 +7534,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 87.63) (xy 407.67 87.63)
+			(xy 383.54 93.98) (xy 386.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6936,7 +7573,7 @@
 		(uuid "f9f6612a-3a41-447f-a85c-201bfbf47238")
 	)
 	(label "MOSP1"
-		(at 402.59 67.31 90)
+		(at 381 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6946,7 +7583,7 @@
 		(uuid "005b5952-cbe0-4e62-a35c-92a93bf700b4")
 	)
 	(label "I2C_Addr"
-		(at 353.06 39.37 90)
+		(at 331.47 45.72 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +7593,7 @@
 		(uuid "15d2ad0f-91f5-4a8f-95b6-7b85d1bf2bf9")
 	)
 	(label "C_In"
-		(at 345.44 39.37 90)
+		(at 323.85 45.72 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6966,7 +7603,7 @@
 		(uuid "18ddec80-6a75-4536-98df-9f10ddbd5af2")
 	)
 	(label "C_Out"
-		(at 342.9 39.37 90)
+		(at 321.31 45.72 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6976,7 +7613,7 @@
 		(uuid "31761474-5c1f-417e-8a37-0ae5013640eb")
 	)
 	(label "C_In"
-		(at 424.18 46.99 0)
+		(at 402.59 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6986,7 +7623,7 @@
 		(uuid "5d7e298e-675f-4ad5-8ee7-34d5ebb9bb3b")
 	)
 	(label "C_Out"
-		(at 383.54 49.53 0)
+		(at 361.95 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6996,7 +7633,7 @@
 		(uuid "c0387986-c8aa-4cda-8bc9-6a899d04b371")
 	)
 	(label "MOSP1"
-		(at 330.2 64.77 180)
+		(at 308.61 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7006,7 +7643,7 @@
 		(uuid "d9e19a3f-246a-4670-b2bd-7c22d25d9fd1")
 	)
 	(label "MOSP2"
-		(at 405.13 67.31 90)
+		(at 383.54 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7016,7 +7653,7 @@
 		(uuid "dccbbb0b-4335-42dc-adee-b9151050230d")
 	)
 	(label "I2C_Addr"
-		(at 407.67 67.31 90)
+		(at 386.08 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7026,7 +7663,7 @@
 		(uuid "e3134be7-148b-41b3-911f-d1fe217494ee")
 	)
 	(label "MOSP2"
-		(at 337.82 82.55 270)
+		(at 316.23 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7901,7 +8538,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 330.2 62.23 0)
+		(at 308.61 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7910,7 +8547,7 @@
 		(fields_autoplaced yes)
 		(uuid "13dce4b9-8c2a-4fcc-a384-92ab82d4c043")
 		(property "Reference" "#PWR028"
-			(at 330.2 66.04 0)
+			(at 308.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +8556,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 330.2 57.15 0)
+			(at 308.61 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +8564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 62.23 0)
+			(at 308.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +8573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 62.23 0)
+			(at 308.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +8582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 330.2 62.23 0)
+			(at 308.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8736,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 243.84 320.04 0)
+		(at 242.57 313.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8108,7 +8745,7 @@
 		(fields_autoplaced yes)
 		(uuid "28291203-d301-49d8-866f-84b491808e20")
 		(property "Reference" "#PWR019"
-			(at 243.84 323.85 0)
+			(at 242.57 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8754,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 243.84 314.96 0)
+			(at 242.57 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 320.04 0)
+			(at 242.57 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 320.04 0)
+			(at 242.57 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 243.84 320.04 0)
+			(at 242.57 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8934,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 424.18 59.69 0)
+		(at 402.59 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8306,7 +8943,7 @@
 		(fields_autoplaced yes)
 		(uuid "33bcda58-3b71-4d71-8c42-5d237006534d")
 		(property "Reference" "#PWR030"
-			(at 424.18 66.04 0)
+			(at 402.59 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,7 +8952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 424.18 64.77 0)
+			(at 402.59 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 424.18 59.69 0)
+			(at 402.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,7 +8969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 424.18 59.69 0)
+			(at 402.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8978,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 424.18 59.69 0)
+			(at 402.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +9000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 405.13 90.17 0)
+		(at 383.54 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8372,7 +9009,7 @@
 		(fields_autoplaced yes)
 		(uuid "34542eb3-fff6-48c1-876d-2e8d7826e9b6")
 		(property "Reference" "#PWR032"
-			(at 405.13 96.52 0)
+			(at 383.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +9018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 405.13 95.25 0)
+			(at 383.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +9026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 405.13 90.17 0)
+			(at 383.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8398,7 +9035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 405.13 90.17 0)
+			(at 383.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,7 +9044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 90.17 0)
+			(at 383.54 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +9066,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 71.12 328.93 0)
+		(at 69.85 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8438,7 +9075,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a346deb-6e74-44cd-a06a-0c2e3a041f7c")
 		(property "Reference" "#PWR022"
-			(at 71.12 332.74 0)
+			(at 69.85 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +9084,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 71.12 323.85 0)
+			(at 69.85 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +9092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 328.93 0)
+			(at 69.85 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +9101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 328.93 0)
+			(at 69.85 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +9110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 71.12 328.93 0)
+			(at 69.85 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,8 +9131,160 @@
 		)
 	)
 	(symbol
+		(lib_id "SEIA_SpecLib:PKMCS0909E4000-R1")
+		(at 293.37 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4039594f-4e40-4cf9-92f6-af3836cd9350")
+		(property "Reference" "LS1"
+			(at 304.8 307.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PKMCS0909E4000-R1"
+			(at 304.8 309.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PKMCS0909E4000R1"
+			(at 304.8 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx"
+			(at 304.8 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Piezo Buzzer 9x9mm 4kHz 1.9mm Murata Maximum of +/-12.5 V 65dB SMD Sounder External Piezo Buzzer, Maximum of 4 kHz"
+			(at 293.37 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Piezo Buzzer 9x9mm 4kHz 1.9mm Murata Maximum of +/-12.5 V 65dB SMD Sounder External Piezo Buzzer, Maximum of 4 kHz"
+			(at 304.8 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.9"
+			(at 304.8 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 304.8 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PKMCS0909E4000-R1"
+			(at 304.8 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-PKMCS0909E4000-R1"
+			(at 304.8 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/PKMCS0909E4000-R1?qs=YqJ97pz8ambMt2Tf4F1Kig%3D%3D"
+			(at 304.8 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "PKMCS0909E4000-R1"
+			(at 304.8 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pkmcs0909e4000-r1/murata-manufacturing?region=nac"
+			(at 304.8 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f80a426d-e6d7-4eed-b5da-c6d63fde4f45")
+		)
+		(pin "1"
+			(uuid "3cdf303b-7754-4f35-be77-2c6c5d6ecd5c")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 92.71 331.47 0)
+		(at 91.44 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8504,7 +9293,7 @@
 		(fields_autoplaced yes)
 		(uuid "40d477e7-3421-4b5f-ab75-8ab5f8c8d4d2")
 		(property "Reference" "#PWR021"
-			(at 92.71 337.82 0)
+			(at 91.44 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +9302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 336.55 0)
+			(at 91.44 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +9310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 331.47 0)
+			(at 91.44 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +9319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 331.47 0)
+			(at 91.44 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +9328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 331.47 0)
+			(at 91.44 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +9350,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:EXB28V103JX")
-		(at 402.59 87.63 90)
+		(at 381 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8570,7 +9359,7 @@
 		(fields_autoplaced yes)
 		(uuid "46c2fcfd-019e-4640-aa91-74f981beba0a")
 		(property "Reference" "RN1"
-			(at 414.02 76.1999 90)
+			(at 392.43 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +9368,7 @@
 			)
 		)
 		(property "Value" "EXB28V103JX"
-			(at 414.02 78.7399 90)
+			(at 392.43 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +9377,7 @@
 			)
 		)
 		(property "Footprint" "EXB28V510JX"
-			(at 400.05 71.12 0)
+			(at 378.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +9387,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 402.59 71.12 0)
+			(at 381 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +9397,7 @@
 			)
 		)
 		(property "Description" "RESISTOR,CVEX ARRAY,0402X4, 10K 5% ROHS COMPLIANT: YES"
-			(at 402.59 87.63 0)
+			(at 381 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +9406,7 @@
 			)
 		)
 		(property "Description_1" "RESISTOR,CVEX ARRAY,0402X4, 10K 5% ROHS COMPLIANT: YES"
-			(at 405.13 71.12 0)
+			(at 383.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +9416,7 @@
 			)
 		)
 		(property "Height" "0"
-			(at 407.67 71.12 0)
+			(at 386.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +9426,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 410.21 71.12 0)
+			(at 388.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +9436,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EXB28V103JX"
-			(at 412.75 71.12 0)
+			(at 391.16 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,7 +9446,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 415.29 71.12 0)
+			(at 393.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +9456,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 417.83 71.12 0)
+			(at 396.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +9466,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 420.37 71.12 0)
+			(at 398.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +9476,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 422.91 71.12 0)
+			(at 401.32 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +9520,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 345.44 21.59 0)
+		(at 323.85 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8740,7 +9529,7 @@
 		(fields_autoplaced yes)
 		(uuid "5379dbce-4787-407c-8e98-cd3d36e445b7")
 		(property "Reference" "#PWR031"
-			(at 345.44 27.94 0)
+			(at 323.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +9538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 26.67 0)
+			(at 323.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +9546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 21.59 0)
+			(at 323.85 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +9555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 21.59 0)
+			(at 323.85 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +9564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 345.44 21.59 0)
+			(at 323.85 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,7 +9586,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:C0603C220J5GACTU")
-		(at 383.54 49.53 270)
+		(at 361.95 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8806,7 +9595,7 @@
 		(fields_autoplaced yes)
 		(uuid "537f3967-a512-4301-b7bb-d136aae13afd")
 		(property "Reference" "C3"
-			(at 387.35 54.6099 90)
+			(at 365.76 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +9604,7 @@
 			)
 		)
 		(property "Value" "C0603C220J5GACTU"
-			(at 387.35 57.1499 90)
+			(at 365.76 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +9613,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X87N"
-			(at 384.81 58.42 0)
+			(at 363.22 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
-			(at 382.27 58.42 0)
+			(at 360.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +9633,7 @@
 			)
 		)
 		(property "Description" "SMD Comm C0G, Ceramic, 22 pF, 5%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
-			(at 383.54 49.53 0)
+			(at 361.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +9642,7 @@
 			)
 		)
 		(property "Description_1" "SMD Comm C0G, Ceramic, 22 pF, 5%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
-			(at 379.73 58.42 0)
+			(at 358.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +9652,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at 377.19 58.42 0)
+			(at 355.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +9662,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 374.65 58.42 0)
+			(at 353.06 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +9672,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C220J5GACTU"
-			(at 372.11 58.42 0)
+			(at 350.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +9682,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0603C220J5G"
-			(at 369.57 58.42 0)
+			(at 347.98 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +9692,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C220J5GACTU?qs=SdEwkH2X7htVYoqIlDdZ9g%3D%3D"
-			(at 367.03 58.42 0)
+			(at 345.44 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +9702,7 @@
 			)
 		)
 		(property "Arrow Part Number" "C0603C220J5GACTU"
-			(at 364.49 58.42 0)
+			(at 342.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9712,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c220j5gactu/kemet-corporation?region=nac"
-			(at 361.95 58.42 0)
+			(at 340.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +9738,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:CL05B104KP5NNNC")
-		(at 306.07 59.69 0)
+		(at 284.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8958,7 +9747,7 @@
 		(fields_autoplaced yes)
 		(uuid "53aa4d51-cf4c-481b-a42b-801d602ec5e8")
 		(property "Reference" "C4"
-			(at 312.42 52.07 0)
+			(at 290.83 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +9755,7 @@
 			)
 		)
 		(property "Value" "CL05B104KP5NNNC"
-			(at 312.42 54.61 0)
+			(at 290.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +9763,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1005X55N"
-			(at 314.96 58.42 0)
+			(at 293.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9773,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/CL05B104KP5NNN.do"
-			(at 314.96 60.96 0)
+			(at 293.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +9783,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic 0.1uF 10V X7R 10% Pad SMD 0402 125C T/R"
-			(at 306.07 59.69 0)
+			(at 284.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9792,7 @@
 			)
 		)
 		(property "Description_1" "Cap Ceramic 0.1uF 10V X7R 10% Pad SMD 0402 125C T/R"
-			(at 314.96 63.5 0)
+			(at 293.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,7 +9802,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 314.96 66.04 0)
+			(at 293.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,7 +9812,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at 314.96 68.58 0)
+			(at 293.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +9822,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KP5NNNC"
-			(at 314.96 71.12 0)
+			(at 293.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9832,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL05B104KP5NNNC"
-			(at 314.96 73.66 0)
+			(at 293.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9053,7 +9842,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5NNNC?qs=349EhDEZ59qDkVTTBSSSxw%3D%3D"
-			(at 314.96 76.2 0)
+			(at 293.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,7 +9852,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CL05B104KP5NNNC"
-			(at 314.96 78.74 0)
+			(at 293.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,7 +9862,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05b104kp5nnnc/samsung-electro-mechanics?region=nac"
-			(at 314.96 81.28 0)
+			(at 293.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9888,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:CL05B104KP5NNNC")
-		(at 345.44 104.14 0)
+		(at 323.85 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9108,7 +9897,7 @@
 		(fields_autoplaced yes)
 		(uuid "5696d740-302f-4fff-9365-9ec48b20a1dd")
 		(property "Reference" "C5"
-			(at 351.79 96.52 0)
+			(at 330.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9116,7 +9905,7 @@
 			)
 		)
 		(property "Value" "CL05B104KP5NNNC"
-			(at 351.79 99.06 0)
+			(at 330.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,7 +9913,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1005X55N"
-			(at 354.33 102.87 0)
+			(at 332.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +9923,7 @@
 			)
 		)
 		(property "Datasheet" "http://product.samsungsem.com/mlcc/CL05B104KP5NNN.do"
-			(at 354.33 105.41 0)
+			(at 332.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +9933,7 @@
 			)
 		)
 		(property "Description" "Cap Ceramic 0.1uF 10V X7R 10% Pad SMD 0402 125C T/R"
-			(at 345.44 104.14 0)
+			(at 323.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9942,7 @@
 			)
 		)
 		(property "Description_1" "Cap Ceramic 0.1uF 10V X7R 10% Pad SMD 0402 125C T/R"
-			(at 354.33 107.95 0)
+			(at 332.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +9952,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 354.33 110.49 0)
+			(at 332.74 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,7 +9962,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at 354.33 113.03 0)
+			(at 332.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9972,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KP5NNNC"
-			(at 354.33 115.57 0)
+			(at 332.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9982,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL05B104KP5NNNC"
-			(at 354.33 118.11 0)
+			(at 332.74 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9992,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5NNNC?qs=349EhDEZ59qDkVTTBSSSxw%3D%3D"
-			(at 354.33 120.65 0)
+			(at 332.74 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +10002,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CL05B104KP5NNNC"
-			(at 354.33 123.19 0)
+			(at 332.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +10012,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05b104kp5nnnc/samsung-electro-mechanics?region=nac"
-			(at 354.33 125.73 0)
+			(at 332.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +10038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 59.69 0)
+		(at 284.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9258,7 +10047,7 @@
 		(fields_autoplaced yes)
 		(uuid "57141e1f-6873-4d3c-8b47-2e94a7bd6370")
 		(property "Reference" "#PWR025"
-			(at 306.07 66.04 0)
+			(at 284.48 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +10056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 64.77 0)
+			(at 284.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +10064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 59.69 0)
+			(at 284.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +10073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 59.69 0)
+			(at 284.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +10082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 59.69 0)
+			(at 284.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +10170,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 325.12 59.69 0)
+		(at 303.53 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9390,7 +10179,7 @@
 		(fields_autoplaced yes)
 		(uuid "6797ec54-fadf-42d1-8ae3-59af34ed1ad9")
 		(property "Reference" "#PWR024"
-			(at 325.12 63.5 0)
+			(at 303.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +10188,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 325.12 54.61 0)
+			(at 303.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +10196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 59.69 0)
+			(at 303.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +10205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 59.69 0)
+			(at 303.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +10214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 325.12 59.69 0)
+			(at 303.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +10368,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:CL21A475KAQNNNE")
-		(at 74.93 317.5 0)
+		(at 73.66 311.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9588,7 +10377,7 @@
 		(fields_autoplaced yes)
 		(uuid "72d1d4fa-4108-4ca2-a445-7dc6f61ecec3")
 		(property "Reference" "C2"
-			(at 81.28 309.88 0)
+			(at 80.01 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +10385,7 @@
 			)
 		)
 		(property "Value" "CL21A475KAQNNNE"
-			(at 81.28 312.42 0)
+			(at 80.01 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +10393,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X140N"
-			(at 83.82 316.23 0)
+			(at 82.55 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +10403,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7c2e9fae61a8ce6685f6522ddec12c79.pdf"
-			(at 83.82 318.77 0)
+			(at 82.55 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +10413,7 @@
 			)
 		)
 		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21A475KAQNNNE - CAP, 4.7UF, 25V, MLCC, 0805"
-			(at 74.93 317.5 0)
+			(at 73.66 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +10422,7 @@
 			)
 		)
 		(property "Description_1" "SAMSUNG ELECTRO-MECHANICS - CL21A475KAQNNNE - CAP, 4.7UF, 25V, MLCC, 0805"
-			(at 83.82 321.31 0)
+			(at 82.55 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +10432,7 @@
 			)
 		)
 		(property "Height" "1.4"
-			(at 83.82 323.85 0)
+			(at 82.55 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +10442,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at 83.82 326.39 0)
+			(at 82.55 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +10452,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21A475KAQNNNE"
-			(at 83.82 328.93 0)
+			(at 82.55 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +10462,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21A475KAQNNNE"
-			(at 83.82 331.47 0)
+			(at 82.55 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +10472,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A475KAQNNNE?qs=yOVawPpwOwkWIBpK%2Fbg0Aw%3D%3D"
-			(at 83.82 334.01 0)
+			(at 82.55 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +10482,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CL21A475KAQNNNE"
-			(at 83.82 336.55 0)
+			(at 82.55 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +10492,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21a475kaqnnne/samsung-electro-mechanics?utm_currency=USD&region=europe"
-			(at 83.82 339.09 0)
+			(at 82.55 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +10584,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 68.58 317.5 0)
+		(at 67.31 311.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9804,7 +10593,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cd79848-036b-4a12-b84a-1cd08732fc7a")
 		(property "Reference" "#PWR023"
-			(at 68.58 321.31 0)
+			(at 67.31 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +10602,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 68.58 312.42 0)
+			(at 67.31 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +10610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 317.5 0)
+			(at 67.31 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +10619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 317.5 0)
+			(at 67.31 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +10628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 68.58 317.5 0)
+			(at 67.31 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,6 +10643,230 @@
 			(project ""
 				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEIA_SpecLib:ST1W008S4TR2000")
+		(at 231.14 278.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95159647-cadf-4a9b-b6c4-d47c2e3c7e01")
+		(property "Reference" "J1"
+			(at 247.65 276.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ST1W008S4TR2000"
+			(at 247.65 279.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ST1W008S4TR2000:JAE_ST1W008S4TR2000"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JAE Electronics"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5 mm"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ST1W008S4TR2000/JAE+Electronics/view-part/?ref=eda"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ST1W008S4TR2000/JAE+Electronics/view-part/?ref=snap"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ST1W008S4TR2000"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "microSD memory card connector, 8 contacts, hinge type, soldering (SMT) | JAE Electronics Inc. ST1W008S4TR2000"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JAE Electronics"
+			(at 231.14 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C1"
+			(uuid "5524d594-e591-416b-8e65-26e7a6279645")
+		)
+		(pin "SW"
+			(uuid "6fa9e87f-9062-45c2-9d82-b158ed8ef1ae")
+		)
+		(pin "C2"
+			(uuid "55e25867-1426-4167-b382-493bb312c264")
+		)
+		(pin "C5"
+			(uuid "7cc27707-1be8-49c5-a1d9-53483d34a66c")
+		)
+		(pin "C4"
+			(uuid "01b6794a-7bc7-42f2-8f51-d5c61b0b0be1")
+		)
+		(pin "C3"
+			(uuid "3ef1ca44-2bf2-47df-bf00-5a5e0fb4122f")
+		)
+		(pin "GND4"
+			(uuid "d630cc6b-5d3e-486d-a0b2-0c67ff6b32b2")
+		)
+		(pin "C8"
+			(uuid "2c057a5f-863d-4296-9ff2-d2a742c0cef4")
+		)
+		(pin "GND1"
+			(uuid "008ef17e-82f1-4ff5-b0e5-bef2d76c2903")
+		)
+		(pin "C6"
+			(uuid "845815b4-bce2-49af-8ed4-d459a3da1adb")
+		)
+		(pin "GND3"
+			(uuid "e299e6cf-68a3-41f1-be17-b6a6e4e532eb")
+		)
+		(pin "GND2"
+			(uuid "b3caff9a-0724-49ae-8188-cb0c496bc132")
+		)
+		(pin "C7"
+			(uuid "a4ae86a2-7e18-41e7-9609-eed36e111e4f")
+		)
+		(instances
+			(project ""
+				(path "/10304715-85e0-49b9-9abb-c4d3a396a6f8"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10191,7 +11204,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:BMF055")
-		(at 349.25 57.15 0)
+		(at 327.66 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10200,7 +11213,7 @@
 		(fields_autoplaced yes)
 		(uuid "db29a867-4aa2-42fc-89b7-133f56e5945b")
 		(property "Reference" "IC2"
-			(at 368.3 50.0543 0)
+			(at 346.71 56.4043 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +11221,7 @@
 			)
 		)
 		(property "Value" "BMF055"
-			(at 368.3 52.5943 0)
+			(at 346.71 58.9443 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +11229,7 @@
 			)
 		)
 		(property "Footprint" "BMF055"
-			(at 383.54 44.45 0)
+			(at 361.95 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +11239,7 @@
 			)
 		)
 		(property "Datasheet" "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMF055-DS000.pdf"
-			(at 392.43 51.308 0)
+			(at 370.84 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +11249,7 @@
 			)
 		)
 		(property "Description" "IMUs - Inertial Measurement Units Absolute Orientation Empty 9-Axis Sensor"
-			(at 424.18 73.406 0)
+			(at 402.59 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +11258,7 @@
 			)
 		)
 		(property "Description_1" "IMUs - Inertial Measurement Units Absolute Orientation Empty 9-Axis Sensor"
-			(at 392.43 53.848 0)
+			(at 370.84 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +11268,7 @@
 			)
 		)
 		(property "Height" "1.18"
-			(at 383.54 52.07 0)
+			(at 361.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +11278,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "BOSCH"
-			(at 383.54 54.61 0)
+			(at 361.95 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +11288,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BMF055"
-			(at 383.54 57.15 0)
+			(at 361.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +11298,7 @@
 			)
 		)
 		(property "Mouser Part Number" "262-BMF055"
-			(at 383.54 59.69 0)
+			(at 361.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +11308,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMF055?qs=1GAP6L74MtSGtRSN3WO7Hg%3D%3D"
-			(at 392.43 66.548 0)
+			(at 370.84 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +11318,7 @@
 			)
 		)
 		(property "Arrow Part Number" "BMF055"
-			(at 383.54 64.77 0)
+			(at 361.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +11328,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bmf055/bosch"
-			(at 392.43 71.628 0)
+			(at 370.84 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +11432,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:XRCGB32M768F2N10R0")
-		(at 387.35 46.99 0)
+		(at 365.76 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10428,7 +11441,7 @@
 		(fields_autoplaced yes)
 		(uuid "db992c9c-766b-445d-a8d0-0e81c25434d4")
 		(property "Reference" "Y1"
-			(at 403.86 39.37 0)
+			(at 382.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +11449,7 @@
 			)
 		)
 		(property "Value" "XRCGB32M768F2N10R0"
-			(at 403.86 41.91 0)
+			(at 382.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +11457,7 @@
 			)
 		)
 		(property "Footprint" "XRCGB"
-			(at 416.56 44.45 0)
+			(at 394.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10454,7 +11467,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdata/8801066287134/SPEC-XRCGB32M768F2N10R0.pdf"
-			(at 416.56 46.99 0)
+			(at 394.97 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +11477,7 @@
 			)
 		)
 		(property "Description" "Consumer Crystal Unit, 2.0mm x 1.6mm"
-			(at 387.35 46.99 0)
+			(at 365.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +11486,7 @@
 			)
 		)
 		(property "Description_1" "Consumer Crystal Unit, 2.0mm x 1.6mm"
-			(at 416.56 49.53 0)
+			(at 394.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +11496,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 416.56 52.07 0)
+			(at 394.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +11506,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 416.56 54.61 0)
+			(at 394.97 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +11516,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XRCGB32M768F2N10R0"
-			(at 416.56 57.15 0)
+			(at 394.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10513,7 +11526,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-XRCGB32M768F2N10R"
-			(at 416.56 59.69 0)
+			(at 394.97 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,7 +11536,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/XRCGB32M768F2N10R0?qs=rrS6PyfT74frvG%252Bozfc4Mg%3D%3D"
-			(at 416.56 62.23 0)
+			(at 394.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +11546,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 416.56 64.77 0)
+			(at 394.97 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +11556,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 416.56 67.31 0)
+			(at 394.97 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +11588,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 358.14 104.14 0)
+		(at 336.55 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10584,7 +11597,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc8f389a-9b66-4f72-bc8b-d3e6baea34d6")
 		(property "Reference" "#PWR027"
-			(at 358.14 110.49 0)
+			(at 336.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +11606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 109.22 0)
+			(at 336.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +11614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 104.14 0)
+			(at 336.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +11623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 104.14 0)
+			(at 336.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +11632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 104.14 0)
+			(at 336.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +11654,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 383.54 62.23 0)
+		(at 361.95 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10650,7 +11663,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfc28c39-f7d6-43da-a2b6-67395ffbdc1d")
 		(property "Reference" "#PWR029"
-			(at 383.54 68.58 0)
+			(at 361.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +11672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 383.54 67.31 0)
+			(at 361.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +11680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 383.54 62.23 0)
+			(at 361.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +11689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 62.23 0)
+			(at 361.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +11698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 383.54 62.23 0)
+			(at 361.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,7 +11786,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:BAT")
-		(at 256.54 325.12 0)
+		(at 255.27 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10782,7 +11795,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4ae6865-ce62-46bb-bf76-508771320b86")
 		(property "Reference" "B1"
-			(at 261.62 321.3099 0)
+			(at 260.35 314.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +11804,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 261.62 322.58 0)
+			(at 260.35 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +11813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 325.12 0)
+			(at 255.27 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +11822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 325.12 0)
+			(at 255.27 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +11831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 325.12 0)
+			(at 255.27 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +11856,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:TLV70433DBVR")
-		(at 68.58 331.47 180)
+		(at 67.31 325.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10852,7 +11865,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4e72e70-6e69-4d99-a1ed-873a0c985d0b")
 		(property "Reference" "PS1"
-			(at 54.61 339.09 0)
+			(at 53.34 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +11873,7 @@
 			)
 		)
 		(property "Value" "TLV70433DBVR"
-			(at 54.61 336.55 0)
+			(at 53.34 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +11881,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 44.45 334.01 0)
+			(at 43.18 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +11891,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/tlv704"
-			(at 44.45 331.47 0)
+			(at 43.18 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10888,7 +11901,7 @@
 			)
 		)
 		(property "Description" "24V Input Voltage, 150mA, Ultra-Low-Iq Low-Dropout (LDO) Regulators"
-			(at 68.58 331.47 0)
+			(at 67.31 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10897,7 +11910,7 @@
 			)
 		)
 		(property "Description_1" "24V Input Voltage, 150mA, Ultra-Low-Iq Low-Dropout (LDO) Regulators"
-			(at 44.45 328.93 0)
+			(at 43.18 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10907,7 +11920,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 44.45 326.39 0)
+			(at 43.18 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +11930,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TLV70433DBVR"
-			(at 44.45 323.85 0)
+			(at 43.18 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +11940,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70433DBVR?qs=Ze4%2FuFuz19L2Ke6DRNMjbw%3D%3D"
-			(at 44.45 321.31 0)
+			(at 43.18 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10937,7 +11950,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 44.45 318.77 0)
+			(at 43.18 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +11960,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV70433DBVR"
-			(at 44.45 316.23 0)
+			(at 43.18 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10982,7 +11995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 322.58 0)
+		(at 251.46 316.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10991,7 +12004,7 @@
 		(fields_autoplaced yes)
 		(uuid "e790b04d-9166-4665-be45-cff211976752")
 		(property "Reference" "#PWR020"
-			(at 252.73 328.93 0)
+			(at 251.46 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +12013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 327.66 0)
+			(at 251.46 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +12021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 322.58 0)
+			(at 251.46 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +12030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 322.58 0)
+			(at 251.46 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +12039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 322.58 0)
+			(at 251.46 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,7 +12193,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 340.36 31.75 0)
+		(at 318.77 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11189,7 +12202,7 @@
 		(fields_autoplaced yes)
 		(uuid "efa785e6-b630-4035-b70b-6ac372867595")
 		(property "Reference" "#PWR026"
-			(at 340.36 35.56 0)
+			(at 318.77 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,7 +12211,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 340.36 26.67 0)
+			(at 318.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +12219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 340.36 31.75 0)
+			(at 318.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +12228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 31.75 0)
+			(at 318.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +12237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 340.36 31.75 0)
+			(at 318.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +12259,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:C0603C220J5GACTU")
-		(at 424.18 59.69 90)
+		(at 402.59 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11255,7 +12268,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0996d2d-da3c-48c6-9924-f6c253686915")
 		(property "Reference" "C6"
-			(at 427.99 52.0699 90)
+			(at 406.4 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +12277,7 @@
 			)
 		)
 		(property "Value" "C0603C220J5GACTU"
-			(at 427.99 54.6099 90)
+			(at 406.4 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +12286,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X87N"
-			(at 422.91 50.8 0)
+			(at 401.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11283,7 +12296,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
-			(at 425.45 50.8 0)
+			(at 403.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,7 +12306,7 @@
 			)
 		)
 		(property "Description" "SMD Comm C0G, Ceramic, 22 pF, 5%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
-			(at 424.18 59.69 0)
+			(at 402.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +12315,7 @@
 			)
 		)
 		(property "Description_1" "SMD Comm C0G, Ceramic, 22 pF, 5%, 50 VDC, 125 VDC, 125C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0.1 % , 100 GOhms, 3.7 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 120"
-			(at 427.99 50.8 0)
+			(at 406.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,7 +12325,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at 430.53 50.8 0)
+			(at 408.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +12335,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 433.07 50.8 0)
+			(at 411.48 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +12345,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C220J5GACTU"
-			(at 435.61 50.8 0)
+			(at 414.02 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11342,7 +12355,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0603C220J5G"
-			(at 438.15 50.8 0)
+			(at 416.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,7 +12365,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C220J5GACTU?qs=SdEwkH2X7htVYoqIlDdZ9g%3D%3D"
-			(at 440.69 50.8 0)
+			(at 419.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +12375,7 @@
 			)
 		)
 		(property "Arrow Part Number" "C0603C220J5GACTU"
-			(at 443.23 50.8 0)
+			(at 421.64 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +12385,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c0603c220j5gactu/kemet-corporation?region=nac"
-			(at 445.77 50.8 0)
+			(at 424.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +12411,7 @@
 	)
 	(symbol
 		(lib_id "SEIA_SpecLib:CL21A475KAQNNNE")
-		(at 76.2 328.93 0)
+		(at 74.93 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11407,7 +12420,7 @@
 		(fields_autoplaced yes)
 		(uuid "f11ae28a-dc07-4aa0-90c8-6a152ba6394f")
 		(property "Reference" "C1"
-			(at 82.55 321.31 0)
+			(at 81.28 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11415,7 +12428,7 @@
 			)
 		)
 		(property "Value" "CL21A475KAQNNNE"
-			(at 82.55 323.85 0)
+			(at 81.28 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +12436,7 @@
 			)
 		)
 		(property "Footprint" "CAPC2012X140N"
-			(at 85.09 327.66 0)
+			(at 83.82 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +12446,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/7c2e9fae61a8ce6685f6522ddec12c79.pdf"
-			(at 85.09 330.2 0)
+			(at 83.82 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +12456,7 @@
 			)
 		)
 		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21A475KAQNNNE - CAP, 4.7UF, 25V, MLCC, 0805"
-			(at 76.2 328.93 0)
+			(at 74.93 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +12465,7 @@
 			)
 		)
 		(property "Description_1" "SAMSUNG ELECTRO-MECHANICS - CL21A475KAQNNNE - CAP, 4.7UF, 25V, MLCC, 0805"
-			(at 85.09 332.74 0)
+			(at 83.82 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11462,7 +12475,7 @@
 			)
 		)
 		(property "Height" "1.4"
-			(at 85.09 335.28 0)
+			(at 83.82 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +12485,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at 85.09 337.82 0)
+			(at 83.82 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11482,7 +12495,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21A475KAQNNNE"
-			(at 85.09 340.36 0)
+			(at 83.82 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +12505,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21A475KAQNNNE"
-			(at 85.09 342.9 0)
+			(at 83.82 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +12515,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A475KAQNNNE?qs=yOVawPpwOwkWIBpK%2Fbg0Aw%3D%3D"
-			(at 85.09 345.44 0)
+			(at 83.82 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +12525,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CL21A475KAQNNNE"
-			(at 85.09 347.98 0)
+			(at 83.82 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +12535,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21a475kaqnnne/samsung-electro-mechanics?utm_currency=USD&region=europe"
-			(at 85.09 350.52 0)
+			(at 83.82 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
